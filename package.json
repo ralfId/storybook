@@ -10,9 +10,12 @@
     "type": "git",
     "url": "https://github.com/ralfId/storybook"
   },
+  "peerDependencies": {
+    "react": ">=16"
+  },
   "release": {
     "branches": [
-      "master"
+      "main"
     ]
   },
   "files": [
