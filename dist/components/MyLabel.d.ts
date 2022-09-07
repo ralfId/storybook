@@ -1,6 +1,5 @@
-import { AllCaps } from '../../stories/components/MyLabel.stories';
+/// <reference types="react" />
 import './myLabel.css';
-
 export interface MyLabelProps {
     /**
    * This is the label text
@@ -23,11 +22,4 @@ export interface MyLabelProps {
      */
     customColor?: string;
 }
-
-const colorType = {}
-
-export const MyLabel = ({ label = 'My Label text', size = 'normal', color = 'primary', allCaps = false, customColor}: MyLabelProps) => {
-    return (
-        <span className={`${size} text-${color} ${ (allCaps) && 'uppercase' }` } style={{ color: customColor  }}> {label} </span>
-    )
-}
+export declare const MyLabel: ({ label, size, color, allCaps, customColor }: MyLabelProps) => JSX.Element;

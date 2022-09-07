@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { MyLabel } from "../../components/myLabel/MyLabel";
+import { MyLabel } from "../../components/MyLabel";
+
 
 export default{
     title: 'ReactCourse/MyLabel',
