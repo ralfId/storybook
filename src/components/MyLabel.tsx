@@ -30,3 +30,5 @@ export const MyLabel = ({ label = 'My Label text', size = 'normal', color = 'pri
         <span className={`${size} text-${color} ${ (allCaps) && 'uppercase' }` } style={{ color: customColor  }}> {label} </span>
     )
 }
+
+export default MyLabel;
